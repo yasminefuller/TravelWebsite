@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+    background-color: beige;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 50px;
+}
+
+header{
+    font-size: 30px;
+}
+
+.home {
+}
+
+.home h1 {
+    font-size: 80px;
+    font-family: cursive;
+}
+
+.home p {
+    font-size: 25px;
+}
+
+.purpose h1 {
+    font-size: 30px;
+}
+.purpose p {
+    font-size: 20px;
+}
