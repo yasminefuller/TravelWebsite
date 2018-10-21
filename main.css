@@ -10,21 +10,22 @@ header{
     font-size: 30px;
 }
 
-.home {
+#home-page {
+
 }
 
-.home h1 {
+#home-page h1 {
     font-size: 80px;
     font-family: cursive;
 }
 
-.home p {
+#home-page p {
     font-size: 25px;
 }
 
-.purpose h1 {
-    font-size: 30px;
+#about-page h1 {
+    font-size: 60px;
 }
-.purpose p {
-    font-size: 20px;
+#about-page p {
+    font-size: 30px;
 }
