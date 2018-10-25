@@ -13,8 +13,7 @@ $(document).ready(() => {
         $('#past-trips-page').hide();
         $('#future-trips-page').hide();
         $('#contact-page').hide();
-    });
-    $('.about').on('mouseenter', () => {
+    }).on('mouseenter', () => {
         $('.about').css({
             color: 'blue',
             backgroundColor: 'grey'
@@ -34,8 +33,7 @@ $(document).ready(() => {
         $('#future-trips-page').hide();
         $('#contact-page').hide();
         $('.blog-page').hide();
-    });
-    $('.tips-tricks').on('mouseenter', () => {
+    }).on('mouseenter', () => {
         $('.tips-tricks').css({
             color: 'blue',
             backgroundColor: 'grey'
@@ -50,8 +48,7 @@ $(document).ready(() => {
     $('#tip-1').on('click', () => {
         $('#tip-1-page').show();
         $('.blog-post-box').hide();
-    });
-    $('#tip-1').on('mouseenter', () => {
+    }).on('mouseenter', () => {
         $('#tip-1').css({
             color: 'blue'
         });
@@ -70,8 +67,7 @@ $(document).ready(() => {
         $('#about-page').hide();
         $('#contact-page').hide();
         $('.blog-page').hide();
-    });
-    $('.past-trips').on('mouseenter', () => {
+    }).on('mouseenter', () => {
         $('.past-trips').css({
             color: 'blue',
             backgroundColor: 'grey'
@@ -87,8 +83,7 @@ $(document).ready(() => {
     $('#tulum').on('click', () => {
         $('#tulum-page').show();
         $('.blog-post-box').hide();
-    });
-    $('#tulum').on('mouseenter', () => {
+    }).on('mouseenter', () => {
         $('#tulum').css({
             color: 'blue'
         });
@@ -100,8 +95,7 @@ $(document).ready(() => {
     $('#newyorkcity').on('click', () => {
         $('#newyorkcity-page').show();
         $('.blog-post-box').hide();
-    });
-    $('#newyorkcity').on('mouseenter', () => {
+    }).on('mouseenter', () => {
         $('#newyorkcity').css({
             color: 'blue'
         });
@@ -118,8 +112,7 @@ $(document).ready(() => {
         $('#past-trips-page').hide();
         $('#about-page').hide();
         $('#contact-page').hide();
-    });
-    $('.future-trips').on('mouseenter', () => {
+    }).on('mouseenter', () => {
         $('.future-trips').css({
             color: 'blue',
             backgroundColor: 'grey'
@@ -138,8 +131,7 @@ $(document).ready(() => {
         $('#about-page').hide();
         $('#past-trips-page').hide();
         $('#future-trips-page').hide();
-    });
-    $('.contact').on('mouseenter', () => {
+    }).on('mouseenter', () => {
         $('.contact').css({
             color: 'blue',
             backgroundColor: 'grey'
@@ -158,9 +150,7 @@ $(document).ready(() => {
         $('#about-page').hide();
         $('#past-trips-page').hide();
         $('#future-trips-page').hide();
-    });
-
-    $('.home').on('mouseenter', () => {
+    }).on('mouseenter', () => {
         $('.home').css({
             color: 'blue',
             backgroundColor: 'grey'
