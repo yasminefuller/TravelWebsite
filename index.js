@@ -2,17 +2,19 @@ $(document).ready(() => {
 
     $('#about-page').hide();
     $('#tips-tricks-page').hide();
-    $('#trips-page').hide();
+    $('#past-trips-page').hide();
+    $('#future-trips-page').hide();
     $('#contact-page').hide();
-    $('.nav-trips').hide();
 
     $('.about').on('click', () => {
         $('#about-page').show();
         $('#home-page').hide();
         $('#tips-tricks-page').hide();
-        $('#trips-page').hide();
+        $('#past-trips-page').hide();
+        $('#future-trips-page').hide();
         $('#contact-page').hide();
-    }).on('mouseenter', () => {
+    });
+    $('.about').on('mouseenter', () => {
         $('.about').css({
             color: 'blue',
             backgroundColor: 'grey'
@@ -28,9 +30,12 @@ $(document).ready(() => {
         $('#tips-tricks-page').show();
         $('#home-page').hide();
         $('#about-page').hide();
-        $('#trips-page').hide();
+        $('#past-trips-page').hide();
+        $('#future-trips-page').hide();
         $('#contact-page').hide();
-    }).on('mouseenter', () => {
+        $('.blog-page').hide();
+    });
+    $('.tips-tricks').on('mouseenter', () => {
         $('.tips-tricks').css({
             color: 'blue',
             backgroundColor: 'grey'
@@ -42,21 +47,85 @@ $(document).ready(() => {
         });
     });
 
-    $('.trips').on('click', () => {
-        $('#trips-page').show();
+    $('#tip-1').on('click', () => {
+        $('#tip-1-page').show();
+        $('.blog-post-box').hide();
+    });
+    $('#tip-1').on('mouseenter', () => {
+        $('#tip-1').css({
+            color: 'blue'
+        });
+    }).on('mouseleave', () => {
+        $('#tip-1').css({
+            color: 'black'
+        });
+    });
+
+    $('.past-trips').on('click', () => {
+        $('#past-trips-page').show();
+        $('.blog-post-box').show();
         $('#home-page').hide();
+        $('#future-trips-page').hide();
         $('#tips-tricks-page').hide();
         $('#about-page').hide();
         $('#contact-page').hide();
-    }).on('mouseenter', () => {
-//      $('.nav-trips').show(); Creates dropdown
-        $('.trips').css({
+        $('.blog-page').hide();
+    });
+    $('.past-trips').on('mouseenter', () => {
+        $('.past-trips').css({
             color: 'blue',
             backgroundColor: 'grey'
         });
     }).on('mouseleave', () => {
-//      $('.nav-trips').hide(); Creates dropdown
-        $('.trips').css({
+        $('.past-trips').css({
+            color: 'black',
+            backgroundColor: 'beige'
+        });
+    });
+
+
+    $('#tulum').on('click', () => {
+        $('#tulum-page').show();
+        $('.blog-post-box').hide();
+    });
+    $('#tulum').on('mouseenter', () => {
+        $('#tulum').css({
+            color: 'blue'
+        });
+    }).on('mouseleave', () => {
+        $('#tulum').css({
+            color: 'black'
+        });
+    });
+    $('#newyorkcity').on('click', () => {
+        $('#newyorkcity-page').show();
+        $('.blog-post-box').hide();
+    });
+    $('#newyorkcity').on('mouseenter', () => {
+        $('#newyorkcity').css({
+            color: 'blue'
+        });
+    }).on('mouseleave', () => {
+        $('#newyorkcity').css({
+            color: 'black'
+        });
+    });
+
+    $('.future-trips').on('click', () => {
+        $('#future-trips-page').show();
+        $('#home-page').hide();
+        $('#tips-tricks-page').hide();
+        $('#past-trips-page').hide();
+        $('#about-page').hide();
+        $('#contact-page').hide();
+    });
+    $('.future-trips').on('mouseenter', () => {
+        $('.future-trips').css({
+            color: 'blue',
+            backgroundColor: 'grey'
+        });
+    }).on('mouseleave', () => {
+        $('.future-trips').css({
             color: 'black',
             backgroundColor: 'beige'
         });
@@ -67,8 +136,10 @@ $(document).ready(() => {
         $('#home-page').hide();
         $('#tips-tricks-page').hide();
         $('#about-page').hide();
-        $('#trips-page').hide();
-    }).on('mouseenter', () => {
+        $('#past-trips-page').hide();
+        $('#future-trips-page').hide();
+    });
+    $('.contact').on('mouseenter', () => {
         $('.contact').css({
             color: 'blue',
             backgroundColor: 'grey'
@@ -85,8 +156,11 @@ $(document).ready(() => {
         $('#contact-page').hide();
         $('#tips-tricks-page').hide();
         $('#about-page').hide();
-        $('#trips-page').hide();
-    }).on('mouseenter', () => {
+        $('#past-trips-page').hide();
+        $('#future-trips-page').hide();
+    });
+
+    $('.home').on('mouseenter', () => {
         $('.home').css({
             color: 'blue',
             backgroundColor: 'grey'
