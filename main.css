@@ -1,33 +1,53 @@
-body {
+html, body {
     text-align: center;
     background-color: beige;
-    padding-left: 150px;
-    padding-right: 150px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    font-size: 25px;
+    width:100%;
 }
 
+
 header {
-    font-size: 30px;
+    font-size: 1.2rem;
+    background-color: black;
+    color: white;
+    height: 6rem;
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+
+header h1 {
+    font-size: 1.2rem;
+    height: 0.6rem;
+    font-family: cursive;
+    text-align: left;
+    padding-left: 8%;
+    color: purple;
+
+}
+header h2 {
+    font-size: 0.8rem;
+    font-family: cursive;
+    text-align: right;
+    padding-right: 8%;
+    color: red;
 }
 
 nav {
-
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
-header .nav-trips .container ul {
-    list-style-type: none;
-}
 
 header span {
     text-decoration: underline;
     cursor: pointer;
-    padding: 10px;
+    margin: 1%;
 }
 
 p {
     text-align: justify;
     text-indent: 50px;
+    padding-bottom: 1%;
 }
 
 #home-page {
@@ -35,13 +55,17 @@ p {
 }
 
 #home-page h1 {
-    font-size: 80px;
+    font-size: 2.75rem;
     font-family: cursive;
-    padding-top: 20px;
 }
 
 #home-page p {
-    font-size: 25px;
+    font-size: 1rem;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 100%;
+    max-width: 30%;
+    min-width: 70%;
 }
 
 #about-page {
@@ -49,11 +73,17 @@ p {
 }
 
 #about-page h1 {
-    font-size: 50px;
-    padding-top: 20px;
+    font-size: 2.50rem;
+    font-family: cursive;
+
 }
 #about-page p {
-    font-size: 25px;
+    font-size: 1rem;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 100%;
+    max-width: 30%;
+    min-width: 70%;
 }
 
 #tips-tricks-page {
@@ -61,39 +91,42 @@ p {
 }
 
 #tips-tricks-page h1 {
-    font-size: 50px;
-    padding-top: 20px;
+    font-size: 2.5rem;
+    font-family: cursive;
+
 }
 
 #past-trips-page h1 {
-    font-size: 50px;
-    padding-top: 20px;
+    font-size: 2.5rem;
+    font-family: cursive;
+
 }
 
 .blog-post-box {
     background-color: lightblue;
     border: 1px solid black;
-    margin-bottom: 20px;
-    margin-right: 50px;
-    margin-left: 50px;
-    padding-left: 70px;
-    padding-right: 70px;
-    padding-bottom: 20px;
+    margin-bottom: 4%;
+    margin-right: 15%;
+    margin-left: 15%;
     cursor: pointer;
 }
 
 .blog-post-box h2 {
-    font-size: 25px;
+    font-size: 1rem;
     text-align: left;
+    padding-left: 2%;
 }
 
 .blog-post-box h3 {
-    font-size: 16px;
+    font-size: 0.64rem;
     text-align: right;
+    padding-right: 2%;
 }
 
 .blog-post-box p {
-    font-size: 20px;
+    font-size: 0.8rem;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 .blog-page {
@@ -101,11 +134,18 @@ p {
 }
 
 .blog-page h2 {
-    font-size: 50px;
+    font-size: 2rem;
+    margin-right:15%;
+    margin-left: 15%;
 }
 
 .blog-page p {
-    font-size: 25px;
+    font-size: 1rem;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 100%;
+    max-width: 30%;
+    min-width: 70%;
 }
 
 #future-trips-page {
@@ -113,25 +153,37 @@ p {
 }
 
 #future-trips-page h1 {
-    font-size: 50px;
-    padding-top: 20px;
+    font-size: 2.5rem;
+    font-family: cursive;
+
 }
 
 #future-trips-page p {
-    font-size: 25px;
+    font-size: 1rem;
 }
 
 #contact-page h1 {
-    font-size: 50px;
-    padding-top: 20px;
+    font-size: 2.5rem;
+    font-family: cursive;
+
 }
 
 #contact-page p {
-    font-size: 25px;
+    font-size: 1rem;
     text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: 100%;
+    max-width: 30%;
+    min-width: 70%;
 }
 
 footer {
-    font-size: 30px;
+    background-color: black;
+    color: white;
+    font-size: 0.8rem;
     text-align: right;
+    padding: 4%;
+    padding-right: 10%;
+    margin-top: 10%;
 }

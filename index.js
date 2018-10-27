@@ -16,17 +16,18 @@ $(document).ready(() => {
     }).on('mouseenter', () => {
         $('.about').css({
             color: 'blue',
-            backgroundColor: 'grey'
+            //backgroundColor: 'grey'
         });
     }).on('mouseleave', () => {
         $('.about').css({
-            color: 'black',
-            backgroundColor: 'beige'
+            color: 'white',
+            backgroundColor: 'black'
         });
     });
 
     $('.tips-tricks').on('click', () => {
         $('#tips-tricks-page').show();
+        $('.blog-post-box').show();
         $('#home-page').hide();
         $('#about-page').hide();
         $('#past-trips-page').hide();
@@ -36,12 +37,12 @@ $(document).ready(() => {
     }).on('mouseenter', () => {
         $('.tips-tricks').css({
             color: 'blue',
-            backgroundColor: 'grey'
+            //backgroundColor: 'grey'
         });
     }).on('mouseleave', () => {
         $('.tips-tricks').css({
-            color: 'black',
-            backgroundColor: 'beige'
+            color: 'white',
+            backgroundColor: 'black'
         });
     });
 
@@ -70,12 +71,12 @@ $(document).ready(() => {
     }).on('mouseenter', () => {
         $('.past-trips').css({
             color: 'blue',
-            backgroundColor: 'grey'
+            //backgroundColor: 'grey'
         });
     }).on('mouseleave', () => {
         $('.past-trips').css({
-            color: 'black',
-            backgroundColor: 'beige'
+            color: 'white',
+            backgroundColor: 'black'
         });
     });
 
@@ -115,12 +116,12 @@ $(document).ready(() => {
     }).on('mouseenter', () => {
         $('.future-trips').css({
             color: 'blue',
-            backgroundColor: 'grey'
+            //backgroundColor: 'grey'
         });
     }).on('mouseleave', () => {
         $('.future-trips').css({
-            color: 'black',
-            backgroundColor: 'beige'
+            color: 'white',
+            backgroundColor: 'black'
         });
     });
 
@@ -134,12 +135,12 @@ $(document).ready(() => {
     }).on('mouseenter', () => {
         $('.contact').css({
             color: 'blue',
-            backgroundColor: 'grey'
+            //backgroundColor: 'grey'
         });
     }).on('mouseleave', () => {
         $('.contact').css({
-            color: 'black',
-            backgroundColor: 'beige'
+            color: 'white',
+            backgroundColor: 'black'
         });
     });
 
@@ -153,12 +154,12 @@ $(document).ready(() => {
     }).on('mouseenter', () => {
         $('.home').css({
             color: 'blue',
-            backgroundColor: 'grey'
+            //backgroundColor: 'grey'
         });
     }).on('mouseleave', () => {
         $('.home').css({
-            color: 'black',
-            backgroundColor: 'beige'
+            color: 'white',
+            backgroundColor: 'black'
         });
     });
 
